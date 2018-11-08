@@ -3,22 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
         <title>Nuggets - Home</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
 
         <!-- Styles -->
+        <!-- <link rel="stylesheet" href="resources/sass/home.css"> -->
         <style>
+
             html, body, .title-link {
                 background-color: #fff;
                 color: #41B883;
-                font-family: 'Nunito', sans-serif;
-                /* font-family: 'Operator Mono Light'; */
+                /* font-family: 'Nunito', sans-serif; */
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+            }
+
+            a {
+                text-decoration: none;
             }
 
             .full-height {
@@ -46,11 +52,27 @@
             }
 
             .title {
+                font-family: 'Bahiana', cursive;
                 font-size: 84px;
             }
 
+            .logo {
+                height: 60px;
+                width: 60px;
+                align-items:center;
+            }
+
             .subtitle {
+                font-family: 'Nunito', sans-serif;
                 color: #636b6f;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .podcast-home {
+                margin: 50px 0;
             }
 
             .image {
@@ -59,6 +81,7 @@
             }
 
             .links > a {
+                font-family: 'Nunito', sans-serif;
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 13px;
@@ -71,17 +94,10 @@
             .links > a:hover {
                 transition-timing-function: ease-in-out;
                 transition: 0.5s;
-                /* text-shadow: 2px 2px 2px lightgrey; */
+                text-shadow: 2px 2px 2px lightgrey;
                 color: #41B883;
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-
-            a {
-                text-decoration: none;
-            }
         </style>
     </head>
     <body>
@@ -105,10 +121,15 @@
                     <a class="title-link" href="/">Nuggets</a>
                 </div>
 
-                <div class="subtitle m-b-md"><h3>Crispy podcasts for your ears to savor.</h3></div>
+                <div class="subtitle m-b-md">
+                    <h3>Le podcast qui croustille dedans vos oreilles.</h3>
+                </div>
+                
+                <div class="logo">
+                    <img src="/resources/svg/fried-chicken.svg" alt="nuggets-logo">
+                </div>
 
                 <div class="links">
-                    <!-- <a href="/">Home</a> -->
                     <a href="/podcasts">Podcasts</a>
                     <a href="/archives">Archives</a>
                     <a href="/about">Qui sommes-nous ?</a>
@@ -116,9 +137,10 @@
                     <a href="/login">Login</a>
                 </div>
 
-                <div class="image">
-                    <img src="https://cdn.vox-cdn.com/thumbor/ip3ZS8vs4iM24F2RbxeRsUEgiH4=/320x0:5440x3840/920x613/filters:focal(320x0:5440x3840):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/50023543/20120521-yosemite-327.0.jpg" alt="">
+                <div class="podcast-home">
+                    <iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317475684&color=%23ff5500&hide_related=true&show_comments=true&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
                 </div>
+
             </div>
         </div>
     </body>

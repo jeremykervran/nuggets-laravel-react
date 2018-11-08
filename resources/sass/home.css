@@ -1,0 +1,83 @@
+html, body, .title-link {
+    background-color: #fff;
+    color: #41B883;
+    /* font-family: 'Nunito', sans-serif; */
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Bahiana', cursive;
+    font-size: 84px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    align-items:center;
+}
+
+.subtitle {
+    font-family: 'Nunito', sans-serif;
+    color: #636b6f;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.podcast-home {
+    margin: 50px 0;
+}
+
+.image {
+    margin: 50px 0;
+    border-radius: 5px;
+}
+
+.links > a {
+    font-family: 'Nunito', sans-serif;
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links > a:hover {
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    text-shadow: 2px 2px 2px lightgrey;
+    color: #41B883;
+}
